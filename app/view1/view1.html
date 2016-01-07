@@ -1,0 +1,9 @@
+<div>
+	<input ng-model="content">
+	<button ng-click="addNote()">Ajouter</button>
+	<button ng-click="delNote()">Supprimer</button>
+
+</div>
+<div ng-repeat="note in notes">
+	{{note.content}}
+</div>
